@@ -1,0 +1,245 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background: #F7F7FE;
+}
+
+/* Dark mode uchun stil */
+.dark-mode {
+    background-color: #333;
+    color: #fff;
+}
+
+
+
+/* btn section*/
+
+.btn-light {
+    width: 70px;
+    height: 30px;
+    background-color: #696EDD;
+    border-radius: 30px;
+
+}
+
+.btn-light:hover {
+    background-color: #696EDD;
+}
+
+.btn-light:active {
+    background-color: #696EDD;
+}
+
+.dard_light-btn {
+
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #FFF;
+    margin-top: 2px;
+    margin-left: 2px;
+
+}
+
+/* .btn_parent{
+    width: 70px;
+    height: 30px;
+    background-color:#696EDD;
+    border-radius:30px ; 
+}
+.btn_parent:hover{
+    background-color:#696EDD;
+}
+
+.btn_parent:active{
+    background-color:#696EDD;
+} */
+/* .active{
+
+   width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color:#FFF;
+    margin-top: 2px;
+    margin-left: 40px; 
+}  */
+/* btn section*/
+.header-title {
+    color: #6E728E;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 70px;
+}
+
+.header-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 60px;
+    column-gap: 24px;
+
+}
+
+.btn-table {
+    color: #6E728E;
+    text-align: right;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    /* 186.667% */
+}
+
+/* cards */
+
+
+
+
+.prices-cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.price_card {
+    width: 350px;
+    height: 453px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 20px 40px 0px rgba(212, 210, 244, 0.50);
+    padding: 32px;
+}
+
+.price-title {
+    color: #6E728E;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    /* 155.556% */
+}
+
+.price-text {
+    color: #4A4D60;
+    text-align: center;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 71px;
+    /* 98.611% */
+    letter-spacing: -2.16px;
+
+}
+
+
+
+.table-bg {
+    color: #6E728E;
+    text-align: center;
+
+
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    /* 186.667% */
+}
+
+
+
+
+.card_2 {
+    width: 350px;
+    height: 500px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: linear-gradient(135deg, #A2A7F0 -0.05%, #696EDD 100.05%);
+    box-shadow: 0px 20px 40px 0px rgba(212, 210, 244, 0.50);
+}
+
+
+
+
+.card_btn {
+
+    padding: 32px 34px;
+
+
+}
+
+.btn-card {
+    color: #fff;
+    width: 288px;
+    height: 44px;
+    flex-shrink: 0;
+    text-align: center;
+    border-radius: 6px;
+    background: linear-gradient(135deg, #A2A7F0 0%, #696EDD 100%);
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 1.393px;
+    padding: 14px 50px;
+    transition: .5s;
+}
+
+.btn-card:hover {
+
+    border-radius: 6px;
+    border: 1px solid #6D72DE;
+    background: #FFF;
+}
+
+
+
+.title_2 {
+    color: white;
+}
+
+.card_btn_2 {
+    padding-top: 50px;
+    padding-right: 15px;
+}
+
+.btn_2 {
+    width: 288px;
+    height: 44px;
+    flex-shrink: 0;
+    text-align: center;
+    border-radius: 6px;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 1.393px;
+    padding: 14px 50px;
+
+    background-color: #fff;
+    color: #696EDD;
+    /* color:linear-gradient(135deg, #A2A7F0 0%, #696EDD 100%); */
+}
+
+.btn_2:hover {
+    color:white;
+    border-radius: 6px;
+    border: 1px solid #FFF;
+    background-color: #696EDD;
+}
+
+/* cards */
